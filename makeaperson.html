@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Make a Person</title>
+    </head>
+    <body>
+        <form>
+            <p>Enter first name, last name or full name and press the corresponding button:</p>
+            <input id="nameField" name="nameField" type="text">
+        </br>
+            <input id="setFirstNameButton" name="setFirstNameButton" type="button" onclick="setFirstNameButton1()" value="Set First Name"></br>
+            <input id="setLastNameButton" name="setLastNameButton" type="button" onclick="setLastNameButton1()" value="Set Last Name"></br>
+            <input id="setFullNameButton" name="setFullNameButton" type="button" onclick="setFullNameButton1()" value="Set Full Name"></br>
+            <input id="getFirstNameButton" name="getFirstNameButton" type="button" onclick="getFirstNameButton1()" value="Get First Name"></br>
+            <input id="getLastNameButton" name="getLastNameButton" type="button" onclick="getLastNameButton1()" value="Get Last Name"></br>
+            <input id="getFullNameButton" name="getFullNameButton" type="button" onclick="getFullNameButton1()" value="Get Full Name">
+
+            
+        </form>
+        <p>Result</p>
+
+        <p id="result"></p>
+        <script src="makeaperson.js"></script>
+    </body>
+</html>
